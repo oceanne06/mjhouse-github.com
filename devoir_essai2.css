@@ -1,0 +1,58 @@
+
+/* Style des liens dans la barre de navigation */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Assurer que le corps prend toute la hauteur de la fenêtre */
+    display: flex;
+    justify-content: center; /* Centrer horizontalement le contenu */
+    align-items: flex-start; /* Aligner le contenu en haut */
+}
+
+.logo-container {
+    position: center;
+    top: 20px; /* Distance par rapport au haut de la page */
+}
+
+.logo {
+    width: 150px; /* Largeur du logo */
+    height: auto; /* Ajuster la hauteur de l'image en conséquence */
+}
+
+
+body {
+  background-image: url(back2.png); /* Chemin vers l'image de fond */
+  background-size: cover; /* Redimensionne l'image pour couvrir toute la section */
+  background-position: center; /* Positionne l'image au centre de la section */
+  color: #fff; /* Couleur du texte */
+  text-align: center; /* Alignement du texte au centre */
+  padding: 100px 0; /* Rembourrage pour l'espace autour du texte */
+}
+
+
+
+
+
+
+
+
+
+
+
+

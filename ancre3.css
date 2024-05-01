@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.cover-image {
+    background-image: url("font3.png"); /* Chemin de votre image */
+    background-size: cover; /* Couvrir toute la surface disponible */
+    background-position: top center; /* Positionner l'image en haut au centre */
+    height: 200vh; /* Hauteur de l'image (50% de la hauteur de la fenêtre) */
+}
+
+.image-viennoise {
+    display: flex;
+    flex-wrap: wrap; /* Permettre le passage à la ligne */
+}
+
+.imagevi {
+    width: 300px; /* Largeur du carré */
+    height: 300px; /* Hauteur du carré */
+    margin: 60px; /* Marge autour de chaque carré */
+   
+}
+
+.imagevi img {
+    width: 100%; /* Ajuster la largeur de l'image pour remplir le carré */
+    height: 100%; /* Ajuster la hauteur de l'image pour remplir le carré */
+    object-fit: cover; /* Assurer que l'image couvre tout le carré */
+}
